@@ -3,6 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="css/style.css" />
         <title>Bäckerei</title>
     </head>
@@ -14,10 +20,10 @@
             </div>
             <nav>
                 <ul>
-                    <a href="#uber-uns" rel="noopener  noreferrer"><li>Über uns</li></a>
-                    <a href="#produkte" rel="noopener  noreferrer"> <li>Unsere Produkte</li></a>
-                    <a href="#kosten" rel="noopener  noreferrer"> <li>Kosten</li></a>
-                    <a href="#kontakte" rel="noopener  noreferrer"><li>Kontakte</li></a>
+                    <a href="#uber-uns"><li>Über uns</li></a>
+                    <a href="#produkte"> <li>Unsere Produkte</li></a>
+                    <a href="#kosten"> <li>Kosten</li></a>
+                    <a href="#kontakte"><li>Kontakte</li></a>
                 </ul>
             </nav>
         </header>
@@ -38,21 +44,24 @@
                 <h2>Unsere Produkte</h2>
                 <br />
                 <div class="production-image">
-                    <img src="image/prod1.jpg" alt="Produktion Bild, Brot" />
+                    <img src="image/prod1.jpg" alt="Frisches Weißbrot" />
                 </div>
+
                 <div class="production-image">
-                    <img src="image/prod2.jpg" alt="Produktion Bild, Brot" />
+                    <img src="image/prod2.jpg" alt="Verschiedene Brotsorten" />
                 </div>
+
                 <div class="production-image">
-                    <img src="image/prod3.jpg" alt="Produktion Bild, Brot" />
+                    <img src="image/prod3.jpg" alt="Frisch gebackene Brötchen" />
                 </div>
+
                 <div class="production-image">
-                    <img src="image/prod4.jpg" alt="Produktion Bild, Brot" />
+                    <img src="image/prod4.jpg" alt="Brot in der Bäckerei" />
                 </div>
             </section>
             <section id="kosten">
                 <h2>Kosten</h2>
-                <table border="1">
+                <table class="kosten-table">
                     <thead>
                         <tr>
                             <th scope="col">Art des Brotes</th>
@@ -132,23 +141,30 @@
                         <button type="submit">Senden</button>
                     </form>
                 </fieldset>
+                <div class="kontakte-externe-links">
+                    <h2>Externe Links</h2>
 
-                <h2>Externe Links</h2>
-                <ul>
-                    <li>
-                        <a href="https://marwa555.github.io/Erst_App/" target="_blank">
-                            Marwa Website
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://antondushchak.github.io/Projekt-Meilenstein/"
-                            target="_blank"
-                        >
-                            Anton Website
-                        </a>
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://marwa555.github.io/Erst_App/"
+                                target="_blank"
+                                rel="noopener  noreferrer"
+                            >
+                                Marwa Website
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://antondushchak.github.io/Projekt-Meilenstein/"
+                                target="_blank"
+                                rel="noopener  noreferrer"
+                            >
+                                Anton Website
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer>

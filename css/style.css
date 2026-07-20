@@ -5,13 +5,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     background-color: #f8f5f0;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: #8b5a2b;
     color: white;
@@ -86,7 +85,7 @@ h2 {
     border-radius: 5px;
 }
 
-table {
+.kosten-table {
     width: 100%;
     border-collapse: collapse;
 }
@@ -103,7 +102,7 @@ th {
     color: white;
 }
 
-tr:nth-child(even) {
+tir:nth-chld(even) {
     background-color: #f2f2f2;
 }
 
@@ -142,4 +141,11 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+.kontakte-externe-links ul {
+    list-style: none;
+}
+
+.kontakte-externe-links ul a {
+    text-decoration: none;
 }
