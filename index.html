@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Bäckerei</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="image/logo1.png" alt="logo" />
+                <h1>Brot Haus</h1>
+            </div>
+            <nav>
+                <ul>
+                    <a href="#uber-uns" rel="noopener  noreferrer"><li>Über uns</li></a>
+                    <a href="#produkte" rel="noopener  noreferrer"> <li>Unsere Produkte</li></a>
+                    <a href="#kosten" rel="noopener  noreferrer"> <li>Kosten</li></a>
+                    <a href="#kontakte" rel="noopener  noreferrer"><li>Kontakte</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="uber-uns">
+                <h2>Willkommen in unserer Bäckerei</h2>
+                <p>
+                    Willkommen bei <strong>Bäckerei HsH!</strong> Wir sind eine traditionelle
+                    Bäckerei und backen täglich frisches Brot, knusprige <em>Brötchen</em> und
+                    leckere Backwaren. Dabei verwenden wir hochwertige Zutaten und legen großen Wert
+                    auf Qualität und Frische. Unser Ziel ist es, unseren Kundinnen und Kunden jeden
+                    Tag köstliche Backwaren anzubieten. Freundlicher Service und zufriedene Kunden
+                    stehen bei uns an erster Stelle. Besuchen Sie uns und genießen Sie den Duft von
+                    frisch gebackenem Brot.
+                </p>
+            </section>
+            <section id="produkte">
+                <h2>Unsere Produkte</h2>
+                <br />
+                <div class="production-image">
+                    <img src="image/prod1.jpg" alt="Produktion Bild, Brot" />
+                </div>
+                <div class="production-image">
+                    <img src="image/prod2.jpg" alt="Produktion Bild, Brot" />
+                </div>
+                <div class="production-image">
+                    <img src="image/prod3.jpg" alt="Produktion Bild, Brot" />
+                </div>
+                <div class="production-image">
+                    <img src="image/prod4.jpg" alt="Produktion Bild, Brot" />
+                </div>
+            </section>
+            <section id="kosten">
+                <h2>Kosten</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th scope="col">Art des Brotes</th>
+                            <th scope="col">Preis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Weißbrot</td>
+                            <td>2,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>Vollkornbrot</td>
+                            <td>3,20 €</td>
+                        </tr>
+                        <tr>
+                            <td>Roggenbrot</td>
+                            <td>3,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>Mischbrot</td>
+                            <td>2,80 €</td>
+                        </tr>
+                        <tr>
+                            <td>Bauernbrot</td>
+                            <td>3,50 €</td>
+                        </tr>
+                        <tr>
+                            <td>Schwarzbrot</td>
+                            <td>2,90 €</td>
+                        </tr>
+                        <tr>
+                            <td>Baguette</td>
+                            <td>1,50 €</td>
+                        </tr>
+                        <tr>
+                            <td>Toastbrot</td>
+                            <td>1,80 €</td>
+                        </tr>
+                        <tr>
+                            <td>Dinkelbrot</td>
+                            <td>3,80 €</td>
+                        </tr>
+                        <tr>
+                            <td>Ciabatta</td>
+                            <td>2,50 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="kontakte">
+                <h2>Kontakt uns</h2>
+                <fieldset>
+                    <form>
+                        <label for="name">Vorname </label>
+                        <input type="text" name="vname" id="name" required minlength="2" />
+                        <label for="nachname">Nachname</label>
+                        <input type="text" name="nachname" id="nachname" required minlength="2" />
+                        <label for="mail">Email</label>
+                        <input type="email" name="email" id="mail" readonly />
+                        <label for="telefon">Telefonnummer</label>
+                        <input
+                            type="tel"
+                            name="telefon"
+                            id="telefon"
+                            required
+                            placeholder="+49......."
+                        />
+                        <label for="leb">Deine Nachricht</label>
+                        <textarea
+                            id="leb"
+                            name="nachricht"
+                            required
+                            placeholder="Deine Nachricht"
+                        ></textarea
+                        ><br /><br />
+                        <button type="submit">Senden</button>
+                    </form>
+                </fieldset>
+
+                <h2>Externe Links</h2>
+                <ul>
+                    <li>
+                        <a href="https://marwa555.github.io/Erst_App/" target="_blank">
+                            Marwa Website
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://antondushchak.github.io/Projekt-Meilenstein/"
+                            target="_blank"
+                        >
+                            Anton Website
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Bäckerei HsH</p>
+        </footer>
+    </body>
+</html>
